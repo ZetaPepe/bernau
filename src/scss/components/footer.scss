@@ -60,4 +60,28 @@
       }
     }
   }
+
+  // 新增 Telegram 样式
+  &--telegram {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1rem;
+
+    &:hover {
+      img {
+        opacity: 0.8;
+      }
+    }
+
+    &-icon {
+      img {
+        max-width: 1.5rem; /* 设置图标的最大宽度 */
+        height: 1.5rem;    /* 确保宽高一致 */
+        border-radius: 50%; /* 使 Telegram 图标变成圆形 */
+        object-fit: cover; /* 确保图标内容适配边界 */
+        transition: opacity 0.4s $bezier-curve;
+      }
+    }
+  }
 }
