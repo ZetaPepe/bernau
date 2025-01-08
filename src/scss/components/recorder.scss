@@ -206,7 +206,14 @@
           }
         }
       }
+         &--subtitle {
+             margin-top: 3rem; /* 与上方文字的间距 */
+             font-size: 1rem; /* 字体大小 */
+             color: #333; /* 字体颜色 */
+             text-align: center; /* 居中显示 */
+       }
 
+      
       &.is-recording {
         .intro {
           span {
