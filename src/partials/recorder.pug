@@ -20,8 +20,11 @@ section.sh__recorder
 
 
 
-            // 在下面加入这行文字
-            p.sh__header--subtitle CA：0x55d398326f99059fF775485246999027B3197955
+            // 分开显示 CA 和代码
+            p.sh__header--subtitle
+                span CA：
+                span(id="copy-code") 91wr7r4UCvdKL2dCMfuQcPYTd8LR5f5EB8KJHR3Hpump
+                button(id="copy-btn" class="copy-btn" type="button") Copy
 
         .sh__choice
             .sh__dropdown
