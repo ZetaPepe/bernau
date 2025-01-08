@@ -213,6 +213,12 @@
              text-align: center; /* 居中显示 */
              font-weight: bold; /* 新增：设置文字加粗 */
              user-select: text; /* 确保文字可选中 */
+
+             @media (max-width: 768px) {
+                 margin-top: 1.5rem; /* 缩小小屏上的间距 */
+                 font-size: 0.9rem; /* 缩小字体大小 */
+                 word-wrap: break-word; /* 小屏幕上自动换行 */
+             }
        }
 
       
