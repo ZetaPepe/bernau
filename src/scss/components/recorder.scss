@@ -212,6 +212,7 @@
              color: #333; /* 字体颜色 */
              text-align: center; /* 居中显示 */
              font-weight: bold; /* 新增：设置文字加粗 */
+             user-select: text; /* 确保文字可选中 */
        }
 
       
